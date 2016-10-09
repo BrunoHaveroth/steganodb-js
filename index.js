@@ -1,9 +1,6 @@
 var blueprints = {
   create  : require('./lib/blueprints/create.js'),
-  delete  : require('./lib/blueprints/delete.js'),
-  find    : require('./lib/blueprints/find.js'),
-  findOne : require('./lib/blueprints/findOne.js'),
-  update  : require('./lib/blueprints/update.js')
+  find    : require('./lib/blueprints/find.js')
 };
 
 var steganofile = {
